@@ -8,27 +8,8 @@ A customer opens the chat widget and talks to the assistant in plain language â€
 
 ## Architecture
 
-```
-Customer (Streamlit Chat)
-        |
-        v
-Conversation Agent  (collects booking details through natural dialogue)
-        |
-        v
-PostgreSQL Database  (every message saved as it happens)
-        |
-        v
-Structuring Agent  (converts finished conversation into structured JSON)
-        |
-        v
-PostgreSQL Database  (booking_inquiries table)
-        |
-        v
-Email Service  (formats HTML email)
-        |
-        v
-Hotel Owner's Inbox
-```
+<img width="1536" height="1024" alt="Hotel Booking AI Assistant Workflow" src="https://github.com/user-attachments/assets/b76a6962-80a4-4248-a6b0-170389debf9c" />
+
 
 ## Tech Stack
 
